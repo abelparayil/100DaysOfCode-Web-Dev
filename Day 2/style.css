@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Varels Round', sans-serif;
+    padding-top: 80px;
+}
+
+.header {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.field-input {
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+input::placeholder {
+    color: grey;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.grid-api {
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	margin-top: 40px;
+}
+
+.item {
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    color: black !important;
+    text-decoration: none;
+	box-shadow: -1px 4px 13px -1px rgba(61, 57, 61, 0.2);
+}
+
+span{
+    display: block;
+    color: red;
+    padding: 5px 0;
+}
+
+.pagination {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.pagination div {
+    border-radius: 8px;
+    padding: 9px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    transform: all 0.5s ease-in-out;
+}
