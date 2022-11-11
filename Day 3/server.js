@@ -12,4 +12,4 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/", postRouter);
 
-app.listen(3001, console.log('Server is runnig on 3000'));
+app.listen(3000, console.log('Server is runnig on 3000'));
