@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import SearchBar from '../components/SearchBar';
+import SearchBar from './SearchBar';
 import Link from 'next/link';
 
 const Jobs = ({ jobs }) => {
