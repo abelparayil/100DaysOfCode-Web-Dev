@@ -39,7 +39,7 @@ const HomePage = () => {
 					<tr>
 						<th scope="col">Full Name</th>
 						<th scope="col">Mail</th>
-						<th scope="col">Genre</th>
+						<th scope="col">Gender</th>
 						<th scope="col">Actions</th>
 					</tr>
 				</thead>

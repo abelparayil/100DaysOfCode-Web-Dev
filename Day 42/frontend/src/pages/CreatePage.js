@@ -44,7 +44,7 @@ const CreatePage = () => {
 						className="form-control"
 						value={user.mail}
 						onChange={(e) => setUser({ ...user, mail: e.target.value })}
-						placeholder="Email Adresse"
+						placeholder="Email Address"
 					/>
 				</div>
 				<div className="form-group">
