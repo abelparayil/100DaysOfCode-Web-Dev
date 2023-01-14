@@ -4,7 +4,7 @@ parent.forEach((element) => {
     let collapseElement = element.nextElementSibling;
     let collapseElementChildren = collapseElement.children;
 
-    let tl = new TimeLineMax({
+    let tl = new TimelineMax({
         reversed: true,
         paused: true,
     });
