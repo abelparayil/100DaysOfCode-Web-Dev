@@ -25,15 +25,17 @@ if (cursor) {
             c.style.background = 'transparent';
             f.style.top = t.offsetTop + 'px';
             f.style.left = t.offsetLeft + 'px';
+
             // f.style.top = t.offsetTop + (t.clientHeight - f.clientHeight) / 2 + 'px';
             // f.style.left = t.offsetLeft + (t.clientWidth - f.clientWidth) / 2 + 'px';
-            f.style.display = 'flex';
-            f.style.alignItems = 'center';
-            f.style.justifyContent = 'center';
 
+            // f.style.display = 'flex';
+            // f.style.alignItems = 'center';
+            // f.style.justifyContent = 'center';
 
             // f.style.right = t.offsetRight + 'px';
             // f.style.bottom = t.offsetBottom + 'px';
+            
             f.style.width = t.clientWidth + 'px';
             f.style.height = t.clientHeight + 'px';
 
