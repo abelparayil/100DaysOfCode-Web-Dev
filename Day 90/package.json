@@ -8,7 +8,7 @@
     "server": "nodemon backend/server.js"
   },
   "keywords": [],
-  "author": "Said Mounaim",
+  "author": "Abel Abraham",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
